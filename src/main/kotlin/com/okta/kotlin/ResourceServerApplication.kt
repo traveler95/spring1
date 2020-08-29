@@ -12,7 +12,7 @@ class ResourceServerApplication  {
   fun run(repository: CoffeeShopRepository) = ApplicationRunner {
     repository.save(CoffeeShopModel(
       name = "Oblique",
-      address = "3039 SE Stark St, Portland, OR 97214",
+      address = "303333 SE Stark St, Portland, OR 97214",
       phone = "555-111-4444",
       priceOfCoffee = 1.50,
       powerAccessible = true,
